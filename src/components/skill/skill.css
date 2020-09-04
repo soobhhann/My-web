@@ -1,0 +1,60 @@
+.skill h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  padding: 20px 0;
+}
+
+.skill img {
+  width: 400px;
+  height: 400px;
+}
+
+.prog-container {
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.skill-container {
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 995px) {
+  .skill img {
+    display: none;
+  }
+  .skill-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .btt {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=skill.css.map */

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Main";
+  src: url(../assets/fonts/Grandstander-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "MAin" , sans-serif;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#faf3dd), to(#e0c8ae));
+  background: linear-gradient(to left, #faf3dd, #e0c8ae);
+}
+
+.container {
+  max-width: 88%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,45 @@
+@import "../../styles/function";
+@import "../../styles/variable";
+
+.skill{
+    // height: 100vh;
+    // background-color: #cccc;
+
+    h2{
+        text-align: center;
+        font-size: 2.1rem;
+        padding: 20px 0;
+    }
+
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.prog-container{
+    height: 250px;
+    @include flex (column, space-between);
+    margin:0 auto;
+}
+
+.skill-container{
+    max-width: 1400px;
+    @include flex(row, space-between);
+    margin: auto;
+}
+
+@media screen and (max-width: 995px){
+    .skill{
+        img{
+            display: none;
+        }
+    }
+    .skill-container{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .btt{
+        margin:0 auto;
+    }
+}

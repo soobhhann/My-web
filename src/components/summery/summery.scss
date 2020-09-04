@@ -1,0 +1,76 @@
+@import "../../styles/function";
+@import "../../styles/variable";
+
+.summery{
+    width: 75%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    background-color: $cl1;
+    border-radius: 210px 20px 280px 20px;
+}
+
+.summery-about-me{
+    width: 98%;
+    height: 98%;
+    margin:0 auto ;
+    text-align: center;
+    background-color: $cl4;
+    border-radius: 220px 10px 280px 10px;
+    h2{
+        font-size: 2rem;
+        padding: 50px 0 40px 0;
+    }
+    .par{
+        line-height: 1.8rem;
+        font-size: 1.3rem;
+
+        padding: 0 50px 30px;
+    }
+}
+
+.btr{
+    z-index: 3;
+    background-color: $cl4;
+    margin: auto;
+}
+
+@media screen and (max-width: 995px){
+    .summery{
+        width: 100%;
+        border-radius: 100px 20px 280px 20px;
+    }
+    
+    .summery-about-me{
+        border-radius: 100px 10px 280px 10px;
+        h2{
+            padding: 20px 0 10px 0;
+        }
+        .par{
+            line-height: 1.5rem;
+            font-size: 1.1rem;
+    
+            padding: 0 30px 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .summery{
+        width: 100%;
+        border-radius: 80px 20px 100px 20px;
+    }
+    
+    .summery-about-me{
+        border-radius: 80px 10px 100px 10px;
+        h2{
+            padding: 20px 0 10px 0;
+        }
+        .par{
+            line-height: 1.5rem;
+            font-size: 1.1rem;
+    
+            padding: 0 20px 30px;
+        }
+    }
+}

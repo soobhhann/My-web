@@ -1,0 +1,62 @@
+@import "../../styles/function";
+@import "../../styles/variable";
+
+.drawing-btn {
+    padding: 15px 30px;
+    display: block;
+    outline: none;
+    border: 1px solid #2c2c2c4d;
+    font-size: 1.3rem;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    border-radius: 5px;
+
+    p {
+        z-index: 5;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 200%;
+        height: 120%;
+        @include gradient (top, $cl1, $cl3);
+        z-index: -1;
+        transform: translate(10%, 60%) rotate(-20deg);
+
+        transition: all 0.4s ease-in-out;
+    }
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 130%;
+        @include gradient (bottom, $cl1, $cl3);
+        z-index: -1;
+        transform: translate(-10%, -80%) rotate(-20deg);
+        transition: all 0.4s ease-in-out;
+    }
+
+    &:hover {
+        color: black;
+        box-shadow: 5px 15px 20px #575656;
+    }
+
+    &:hover::after {
+        transform: translate(20%, 100%) rotate(-20deg);
+    }
+
+    &:hover::before {
+        transform: translate(-30%, -95%) rotate(-20deg);
+    }
+}

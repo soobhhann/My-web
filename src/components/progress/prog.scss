@@ -1,0 +1,46 @@
+@import "../../styles/function";
+@import "../../styles/variable";
+
+.skills-list {
+    width: 545px;
+    @include flex(row, space-between)
+}
+
+.prog {
+    width: 400px;
+    height: 50px;
+    margin-right: 50px;
+    // background-color: #fff;
+    border-radius: 50px;
+    z-index: 1;
+    margin: 0;
+}
+
+.prog-bar {
+    @include gradient(right, $cl1, $cl3);
+    height: 100%;
+    border-radius: 40px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    opacity: 0.3;
+    transition: all 0.7s ease;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-list {
+        @include flex(row, space-between);
+        width: 390px;
+    }
+
+    .prog {
+        width: 250px;
+    }
+}

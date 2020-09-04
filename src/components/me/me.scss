@@ -1,0 +1,21 @@
+.me{
+    height: 170px;
+    text-align: center;
+    margin-top: 50px;
+    h1 {
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.1rem;
+        padding-bottom: 5px;
+        &:first-child{
+            padding: 10px 0 0 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .me{
+        height: 110px;
+    }
+}

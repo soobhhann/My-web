@@ -1,0 +1,10 @@
+@mixin gradient($dir, $cl1, $cl2) {
+    background: linear-gradient(to $dir, $cl1, $cl2);
+}
+
+@mixin flex($dir , $just) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $just;
+    align-items: center;
+}

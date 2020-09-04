@@ -1,0 +1,30 @@
+@import "./function";
+@import "./variable";
+
+@font-face {
+    font-family: "Main";
+    src: url(../assets/fonts/Grandstander-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MAin" , sans-serif;
+}
+
+body {
+    @include gradient(left, $cl4, #e0c8ae);
+}
+
+.container {
+    max-width: 88%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}

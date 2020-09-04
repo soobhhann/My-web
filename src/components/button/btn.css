@@ -1,0 +1,68 @@
+.drawing-btn {
+  padding: 15px 30px;
+  display: block;
+  outline: none;
+  border: 1px solid #2c2c2c4d;
+  font-size: 1.3rem;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: black;
+  border-radius: 5px;
+}
+
+.drawing-btn p {
+  z-index: 5;
+}
+
+.drawing-btn::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 200%;
+  height: 120%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#68b0ab), to(#c8d5b9));
+  background: linear-gradient(to top, #68b0ab, #c8d5b9);
+  z-index: -1;
+  -webkit-transform: translate(10%, 60%) rotate(-20deg);
+          transform: translate(10%, 60%) rotate(-20deg);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.drawing-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 130%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#68b0ab), to(#c8d5b9));
+  background: linear-gradient(to bottom, #68b0ab, #c8d5b9);
+  z-index: -1;
+  -webkit-transform: translate(-10%, -80%) rotate(-20deg);
+          transform: translate(-10%, -80%) rotate(-20deg);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.drawing-btn:hover {
+  color: black;
+  -webkit-box-shadow: 5px 15px 20px #575656;
+          box-shadow: 5px 15px 20px #575656;
+}
+
+.drawing-btn:hover::after {
+  -webkit-transform: translate(20%, 100%) rotate(-20deg);
+          transform: translate(20%, 100%) rotate(-20deg);
+}
+
+.drawing-btn:hover::before {
+  -webkit-transform: translate(-30%, -95%) rotate(-20deg);
+          transform: translate(-30%, -95%) rotate(-20deg);
+}
+/*# sourceMappingURL=btn.css.map */
