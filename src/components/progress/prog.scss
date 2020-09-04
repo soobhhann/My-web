@@ -27,6 +27,7 @@
     width: 0;
     opacity: 0.3;
     transition: all 0.7s ease;
+    margin: 0;
 }
 
 h4 {
@@ -42,5 +43,15 @@ h4 {
 
     .prog {
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .skills-list {
+        width: 100%;
+    }
+
+    .prog {
+        width: 200px;
     }
 }

@@ -43,6 +43,7 @@
   opacity: 0.3;
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
+  margin: 0;
 }
 
 h4 {
@@ -69,6 +70,15 @@ h4 {
   }
   .prog {
     width: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .skills-list {
+    width: 100%;
+  }
+  .prog {
+    width: 200px;
   }
 }
 /*# sourceMappingURL=prog.css.map */

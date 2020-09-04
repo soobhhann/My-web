@@ -20,7 +20,8 @@
 .prog-container{
     height: 250px;
     @include flex (column, space-between);
-    margin:0 auto;
+    width: 100%;
+    // margin: auto;
 }
 
 .skill-container{
@@ -41,5 +42,12 @@
     }
     .btt{
         margin:0 auto;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .skill-container{
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
