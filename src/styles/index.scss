@@ -24,7 +24,9 @@ body {
 
 a{
     text-decoration: none;
+    color: white;
     &:hover{
         text-decoration: none;
+        color: rgb(41, 191, 250);
     }
 }

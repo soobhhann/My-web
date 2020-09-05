@@ -30,6 +30,7 @@
         .nav-li {
             padding: 10px 40px;
             transition: all 0.5s ease;
+            font-size: 1.2rem;
         }
     }
 
@@ -67,9 +68,11 @@
 @media screen and (max-width:995px) {
     body {
         overflow-x: hidden;
+
     }
 
     .menu {
+       
         .nav-ul {
             position: fixed;
             left: 0;

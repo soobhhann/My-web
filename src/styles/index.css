@@ -23,9 +23,11 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
+  color: #29bffa;
 }
 /*# sourceMappingURL=index.css.map */

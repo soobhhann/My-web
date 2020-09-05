@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./pages/proj/Project";
 import About from "./pages/About/About";
 import SkillPage from "./pages/Skills/SkillPage";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/skills" exact component={SkillPage} />
         </Switch>
+        <Footer />
       </>
     </Router>
   );
