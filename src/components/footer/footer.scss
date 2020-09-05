@@ -16,7 +16,7 @@ footer {
     height: 300px;
     width: 85%;
     @include flex(column, center);
-    @include gradient(right, $cl3, $cl3);
+    background-color: $cl3;
     border-radius: 5px;
 
     h2 {
@@ -45,4 +45,10 @@ footer {
 
 .gmail{
     padding-top: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        width: 92%;
+    }
 }

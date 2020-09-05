@@ -27,8 +27,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(#c8d5b9), to(#c8d5b9));
-  background: linear-gradient(to right, #c8d5b9, #c8d5b9);
+  background-color: #c8d5b9;
   border-radius: 5px;
 }
 
@@ -73,5 +72,11 @@ footer {
 
 .gmail {
   padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 92%;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
