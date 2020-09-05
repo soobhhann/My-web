@@ -78,8 +78,6 @@
   height: 300px;
   margin-left: 35px;
   opacity: 0;
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px);
   -webkit-animation: scaling 1s forwards 3s;
           animation: scaling 1s forwards 3s;
   -webkit-transition: all 0.3s ease;
@@ -120,16 +118,16 @@
 @-webkit-keyframes scaling {
   to {
     opacity: 1;
-    -webkit-transform: translateX(-60px);
-            transform: translateX(-60px);
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
   }
 }
 
 @keyframes scaling {
   to {
     opacity: 1;
-    -webkit-transform: translateX(-60px);
-            transform: translateX(-60px);
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
   }
 }
 
@@ -151,7 +149,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    height: 560px;
+    height: 500px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -167,32 +165,35 @@
     margin: 0px auto;
   }
   .idea object {
-    height: 150px;
+    height: 110px;
   }
   .arrow {
     width: 30%;
     height: 100px;
-    margin: 150px auto;
+    margin: 0px auto;
     margin-bottom: 0px;
+  }
+  .arrow p {
+    padding-top: 0px;
+    margin: 0;
   }
   .arrow svg {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    width: 90px;
+    width: 80px;
     height: 120px;
   }
   .web {
     height: 100px;
-    width: 100%;
-    margin: auto;
+    width: 90%;
+    margin: -60px auto 90px;
   }
   .web object {
-    margin-left: 120px;
-    width: 200px;
+    width: 120px;
     height: 130px;
   }
   .web p {
-    padding-top: 20px;
+    padding-top: 0px;
   }
   p {
     text-align: center;

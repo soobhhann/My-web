@@ -2,4 +2,10 @@
   min-height: 90vh;
   margin-top: 70px;
 }
+
+@media screen and (max-width: 768px) {
+  .main-sec {
+    margin-top: 40px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

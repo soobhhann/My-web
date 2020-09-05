@@ -93,7 +93,7 @@
     position: fixed;
     left: 0;
     top: 70px;
-    height: 91%;
+    height: 90%;
     width: 50%;
     text-align: center;
     background: -webkit-gradient(linear, left top, right top, from(#8fc0a9), to(#68b0ab));
@@ -109,15 +109,26 @@
         justify-content: space-around;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    z-index: 2;
+    z-index: 10;
   }
   .menu .burger {
     display: block;
     height: 30px;
+    z-index: 20;
   }
   .show {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    height: 50px;
+  }
+  .menu .nav-ul {
+    top: 50px;
+    height: 94%;
   }
 }
 

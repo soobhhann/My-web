@@ -7,7 +7,7 @@ const Prog = ({ done, title }) => {
     useEffect(() => {
         const Scroll = e =>{
             let scl = e.target.documentElement.scrollTop
-            if(scl > 230 && scl < 1100){
+            if(scl > 200 && scl < 1100){
                 const newStyle ={
                     width: done,
                     opacity: 1

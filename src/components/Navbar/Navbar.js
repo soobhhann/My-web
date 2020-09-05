@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 const Navbar = () => {
@@ -10,7 +11,9 @@ const Navbar = () => {
   const dist = (e) => {
     switch (e.target.className) {
       case "burger":
-        return setToggle("burger toggle") + setShow("nav-ul") + setAnim("showing");
+        return (
+          setToggle("burger toggle") + setShow("nav-ul") + setAnim("showing")
+        );
 
       case "burger toggle":
         return setToggle("burger") + setShow("nav-ul show") + setAnim("");
@@ -36,9 +39,30 @@ const Navbar = () => {
         </h1>
 
         <ul className={Show}>
-          <li style={{animation: `${Anim} 1s backwards 0.3s`}} className="nav-li">Home</li>
-          <li style={{animation: `${Anim} 1s backwards 0.3s`}} className="nav-li">About</li>
-          <li style={{animation: `${Anim} 1s backwards 0.3s`}} className="nav-li">Project</li>
+          <Link to="/">
+            <li
+              style={{ animation: `${Anim} 1s backwards 0.3s` }}
+              className="nav-li"
+            >
+              Home
+            </li>
+          </Link>
+          <Link to="/about">
+            <li
+              style={{ animation: `${Anim} 1s backwards 0.3s` }}
+              className="nav-li"
+            >
+              About
+            </li>
+          </Link>
+          <Link to="/projects">
+            <li
+              style={{ animation: `${Anim} 1s backwards 0.3s` }}
+              className="nav-li"
+            >
+              Project
+            </li>
+          </Link>
         </ul>
       </div>
     </nav>

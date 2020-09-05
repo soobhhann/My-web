@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./summery.css";
 import Btn from "../button/button";
 
@@ -27,7 +28,9 @@ const Summery = () => {
           recusandae aliquid iure nisi tenetur, voluptate sunt magnam, quos
           asperiores amet.
         </p>
-        <Btn title="Read more" cls="btr" />
+        <Link to="/about">
+          <Btn title="Read more" cls="btr" />
+        </Link>
         <br />
         <br />
       </div>
