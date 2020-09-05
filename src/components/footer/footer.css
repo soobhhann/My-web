@@ -63,11 +63,15 @@ footer {
 
 .copyright {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   font-size: 1.1rem;
   opacity: 0.6;
+}
+
+.gmail {
+  padding-top: 15px;
 }
 /*# sourceMappingURL=footer.css.map */

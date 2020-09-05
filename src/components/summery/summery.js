@@ -9,24 +9,20 @@ const Summery = () => {
       <div className="summery-about-me">
         <h2>About Me</h2>
         <p className="par">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
-          temporibus fugiat. Delectus est quae beatae corporis sint,
-          voluptatibus voluptate quia ex. Eos reprehenderit explicabo repellat
-          ad laboriosam, dolores repellendus dolor itaque iste recusandae
-          doloribus debitis nisi. Officiis doloribus nisi corrupti cupiditate
-          ipsa, excepturi aspernatur. Autem esse aliquam odio incidunt facilis
-          voluptatem non fugit ipsam pariatur, quidem quasi expedita cupiditate,
-          nemo ratione necessitatibus molestias. Nihil debitis exercitationem
-          repellendus quis vitae aliquam molestiae nisi sed. Ducimus, quibusdam
-          exercitationem iure pariatur at mollitia quo, sunt laudantium facilis
-          ratione, molestiae hic sed id nam ipsum dolores omnis numquam quidem
-          ullam cum quis. Porro, autem! Mollitia maiores delectus perspiciatis
-          vel accusantium deserunt facere pariatur modi natus dolores rem
-          veritatis sapiente, excepturi quos qui? Quae qui doloribus dolor nihil
-          magni, beatae exercitationem obcaecati facilis fugiat, temporibus,
-          culpa vitae amet a? Eveniet repellat id sapiente consectetur
-          recusandae aliquid iure nisi tenetur, voluptate sunt magnam, quos
-          asperiores amet.
+          I am Sobhan Esfandiari, born on April 20, 2000, I am a student of
+          industrial accounting and I am interested in the world of technology,
+          especially website design and development. I started the web world
+          with SEO and optimizing websites. I did SEO for almost a year until I
+          realized that I could build a website much easier than I thought, and
+          yes, of course I first felt that the website I had was working. It
+          needs a series of facilities! So I started researching and learning
+          about the web, and after a month I was able to design my first
+          template that I had written with blank HTML and CSS. After a few
+          months, I started learning the beautiful language of JavaScript.After
+          a few courses and also doing a few mini-projects, I went to the React
+          js library, which was also full of wonders and cool things.Now I try
+          to get ahead of everyone by improving my work and create new things
+          that no one has done before
         </p>
         <Link to="/about">
           <Btn title="Read more" cls="btr" />

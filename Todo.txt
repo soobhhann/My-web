@@ -1,4 +1,6 @@
-fix the "a" styles
-make footer
 make About me page
 make skills page
+
+make project area
+
+

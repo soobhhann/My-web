@@ -1,0 +1,33 @@
+.about-sec {
+  min-height: 500px;
+  margin-top: 100px;
+}
+
+.lang {
+  width: 250px;
+  background-color: #c8d5b9;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.lang span {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.main-content {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #faf3dd;
+  border-radius: 5px;
+}
+
+.main-content .content {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+/*# sourceMappingURL=about.css.map */

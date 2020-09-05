@@ -3,6 +3,11 @@
   src: url(../assets/fonts/Grandstander-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "Vazir";
+  src: url(../assets/fonts/Vazir.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;

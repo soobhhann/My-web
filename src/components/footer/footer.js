@@ -25,11 +25,13 @@ const Footer = () => {
             <p>telegram</p>
           </a>
         </div>
+
+        <div className="gmail">
+          <p>soobhhann@gmail.com</p>
+        </div>
       </div>
 
-      <p className="copyright">
-        Soobhhan production 2020
-      </p>
+      <p className="copyright">Soobhhan production 2020</p>
     </footer>
   );
 };
