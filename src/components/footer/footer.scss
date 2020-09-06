@@ -50,5 +50,8 @@ footer {
 @media screen and (max-width: 768px){
     .footer{
         width: 92%;
+        h2 {
+            font-size: 2rem;
+        }
     }
 }

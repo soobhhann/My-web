@@ -78,5 +78,8 @@ footer {
   .footer {
     width: 92%;
   }
+  .footer h2 {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
