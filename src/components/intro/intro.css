@@ -149,7 +149,7 @@
 @media screen and (max-width: 768px) {
   .intro {
     margin: auto;
-    height: 500px;
+    height: 450px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -176,6 +176,7 @@
   .arrow p {
     padding-top: 0px;
     margin: 0;
+    display: none;
   }
   .arrow svg {
     -webkit-transform: rotate(90deg);
@@ -186,7 +187,7 @@
   .web {
     height: 100px;
     width: 90%;
-    margin: -60px auto 90px;
+    margin: -110px auto 90px;
   }
   .web object {
     width: 120px;
