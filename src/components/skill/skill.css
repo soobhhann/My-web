@@ -80,8 +80,8 @@
         -ms-flex-align: center;
             align-items: center;
     margin: 20px auto 0 auto;
-    -webkit-transform: translate(6px);
-            transform: translate(6px);
+    -webkit-transform: translate(5px);
+            transform: translate(5px);
   }
   .skill-container {
     width: 100%;
