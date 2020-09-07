@@ -47,14 +47,18 @@
         }
         h2 {
             text-align: center;
-            font-size: 2.1rem;
+            font-size: 2.3rem;
             padding: 20px 0 40px;
         }
     }
 
     .btnn{
-        width: 200px;
-        margin:20px auto 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:20px auto 0 auto;
+        transform: translate(6px);
     }
 
     .skill-container {
