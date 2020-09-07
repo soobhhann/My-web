@@ -1,51 +1,71 @@
 @import "../../styles/function";
 @import "../../styles/variable";
 
-.skill{
+.skill {
     margin-top: 50px;
 
-    h2{
+    h2 {
         text-align: center;
         font-size: 2.1rem;
-        padding: 20px 0;
+        padding: 20px 0 0;
     }
 
-    img{
+    img {
         width: 400px;
         height: 400px;
     }
 }
 
-.prog-container{
+.prog-container {
     height: 250px;
     @include flex (column, space-between);
     width: 100%;
     // margin: auto;
 }
 
-.skill-container{
+.skill-container {
     max-width: 1400px;
     @include flex(row, space-between);
     margin: auto;
 }
 
-@media screen and (max-width: 995px){
-    .skill{
-        img{
+.btr{
+    z-index: 3;
+    background-color: $cl4;
+    margin: auto;
+}
+
+.btnn{
+    width: 200px;
+}
+
+
+@media screen and (max-width: 995px) {
+    .skill {
+        img {
             display: none;
         }
+        h2 {
+            text-align: center;
+            font-size: 2.1rem;
+            padding: 20px 0 40px;
+        }
     }
-    .skill-container{
+
+    .btnn{
+        width: 200px;
+        margin:20px auto 0;
+    }
+
+    .skill-container {
         width: 100%;
         margin-bottom: 30px;
     }
-    .btt{
-        margin:0 auto;
-    }
+
 }
 
-@media screen and (max-width: 550px){
-    .skill-container{
+@media screen and (max-width: 550px) {
+    .skill-container {
         width: 100%;
         margin-bottom: 30px;
     }

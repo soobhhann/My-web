@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./about.css";
-import Summery from "../../components/summery/summery";
 
 const About = () => {
-  const [Lang, setLang] = useState("en");
+  const [Lang, setLang] = useState("en")
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
 
   switch (Lang) {
     case "en":
@@ -49,7 +52,6 @@ const About = () => {
           </main>
         </section>
       );
-      break;
 
     case "fa":
       return (

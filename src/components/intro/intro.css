@@ -1,6 +1,5 @@
 .intro {
   width: 90%;
-  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +15,7 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: auto;
+  margin: 100px auto;
 }
 
 #arrow path:nth-child(1) {
@@ -149,6 +148,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
+    margin: auto;
     height: 500px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

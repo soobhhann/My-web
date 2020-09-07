@@ -8,24 +8,25 @@ const Navbar = () => {
   const [Show, setShow] = useState("nav-ul show");
   const [Anim, setAnim] = useState("");
 
-  const dist = (e) => {
-    switch (e.target.className) {
+  const dist = () => {
+    switch (Toggle) {
       case "burger":
         return (
           setToggle("burger toggle") + setShow("nav-ul") + setAnim("showing")
         );
 
       case "burger toggle":
-        return setToggle("burger") + setShow("nav-ul show") + setAnim("");
+        return setToggle("burger") + setShow("nav-ul show") + setAnim("")
       default:
         return Toggle;
     }
   };
 
+
   return (
     <nav className="menu">
       <div className="container">
-        <div onClick={(e) => dist(e)} className={Toggle}>
+        <div onClick={dist} className={Toggle}>
           <div className="line line1"></div>
           <div className="line line2"></div>
           <div className="line line3"></div>
@@ -39,7 +40,7 @@ const Navbar = () => {
         </h1>
 
         <ul className={Show}>
-          <Link to="/">
+          <Link onClick={dist} to="/">
             <li
               style={{ animation: `${Anim} 1s backwards 0.3s` }}
               className="nav-li"
@@ -47,7 +48,7 @@ const Navbar = () => {
               Home
             </li>
           </Link>
-          <Link to="/about">
+          <Link onClick={dist} to="/about">
             <li
               style={{ animation: `${Anim} 1s backwards 0.3s` }}
               className="nav-li"
@@ -55,7 +56,7 @@ const Navbar = () => {
               About
             </li>
           </Link>
-          <Link to="/projects">
+          <Link onClick={dist} to="/projects">
             <li
               style={{ animation: `${Anim} 1s backwards 0.3s` }}
               className="nav-li"

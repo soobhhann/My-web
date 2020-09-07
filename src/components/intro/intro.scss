@@ -3,10 +3,10 @@
 
 .intro {
     width: 90%;
-    height: 500px;
+
     @include flex(row, center);
     flex-wrap: wrap;
-    margin: auto;
+    margin: 100px auto;
 }
 
 #arrow path:nth-child(1) {
@@ -108,6 +108,7 @@
 
 @media screen and (max-width:768px) {
     .intro {
+        margin: auto;
         height: 500px;
         flex-direction: column;
         justify-content: space-between;

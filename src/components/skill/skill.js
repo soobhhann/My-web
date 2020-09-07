@@ -5,10 +5,7 @@ import skills from "../../assets/svgs/skills.svg";
 import Prog from "../progress/Prog";
 import Btn from "../button/button";
 
-const Skill = React.memo(() => {
-  const skil = document.getElementsByClassName("skill").HTMLCollection;
-  console.log(skil);
-
+const Skill = () => {
   return (
     <section className="skill container">
       <h2>My Skills</h2>
@@ -21,11 +18,13 @@ const Skill = React.memo(() => {
           <Prog done="80%" title="REACT" />
         </div>
       </div>
+      <div className="btnn">
       <Link to="/skills">
-        <Btn cls={`btt`} title="Know more" />
+        <Btn title="Know more" cls="btr" />
       </Link>
+      </div>
     </section>
   );
-});
+};
 
 export default Skill;

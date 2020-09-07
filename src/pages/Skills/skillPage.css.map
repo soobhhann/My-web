@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,WAAW,CAAA;EACP,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,IAAI;CAMnB;;AARD,AAGI,WAHO,CAGP,EAAE,CAAA;EACE,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,MAAM;CACrB",
+    "sources": [
+        "skillPage.scss",
+        "../../styles/_function.scss",
+        "../../styles/_variable.scss"
+    ],
+    "names": [],
+    "file": "skillPage.css"
+}

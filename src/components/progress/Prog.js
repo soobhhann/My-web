@@ -7,7 +7,7 @@ const Prog = ({ done, title }) => {
     useEffect(() => {
         const Scroll = e =>{
             let scl = e.target.documentElement.scrollTop
-            if(scl > 200 && scl < 1100){
+            if(scl > 150 && scl < 1100){
                 const newStyle ={
                     width: done,
                     opacity: 1
@@ -22,7 +22,12 @@ const Prog = ({ done, title }) => {
             }
         }
         window.addEventListener("scroll", Scroll)
-    }, []);
+
+        return () =>{
+          window.removeEventListener("scroll", Scroll)
+        }
+    }, [done]);
+
 
   return (
     <div className="skills-list">
