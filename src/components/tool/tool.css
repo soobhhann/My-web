@@ -43,6 +43,7 @@
 }
 
 .tool .description {
+  font-size: 1.3rem;
   text-align: center;
   padding-left: 5px;
   -ms-flex-item-align: center;
@@ -62,6 +63,9 @@
 @media screen and (max-width: 995px) {
   .tool {
         grid-template-areas: ". img . " ". img . " "par par par ";
+  }
+  .tool .description {
+    font-size: 1.1rem;
   }
   .tool:nth-child(odd) {
         grid-template-areas: ". img . " ". img . " "par par par ";

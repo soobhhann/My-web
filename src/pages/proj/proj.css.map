@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,KAAK;CAYpB;;AAbD,AAGI,SAHK,CAGL,EAAE,CAAA;EACE,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,MAAM;CACpB;;AAPL,AAQI,SARK,CAQL,OAAO,EARX,SAAS,CAQI,OAAO,CAAA;ECNhB,OAAO,EAAE,IAAI;EACb,cAAc,EDMI,GAAG;ECLrB,eAAe,EDKQ,YAAY;ECJnC,WAAW,EAAE,MAAM;EDKf,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "proj.scss",
+        "../../styles/_function.scss",
+        "../../styles/_variable.scss"
+    ],
+    "names": [],
+    "file": "proj.css"
+}

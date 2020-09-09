@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./skillPage.css";
 import Tool from "../../components/tool/tool";
 import html from "../../assets/images/html.png";
@@ -8,6 +8,11 @@ import jq from "../../assets/images/jquery.png";
 import rec from "../../assets/images/react.png";
 
 const SkillPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section className="skills-sec">
       <h1>About my skills</h1>

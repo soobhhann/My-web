@@ -33,6 +33,7 @@
     }
 
     .description {
+        font-size: 1.3rem;
         text-align: center;
         padding-left: 5px;
 
@@ -47,6 +48,9 @@
 
 @media screen and (max-width: 995px) {
     .tool {
+        .description{
+            font-size: 1.1rem;
+        }
         grid-template-areas: ". img . "
             ". img . "
             "par par par ";

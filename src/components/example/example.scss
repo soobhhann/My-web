@@ -1,0 +1,44 @@
+@import "../../styles/function";
+@import "../../styles/variable";
+
+.example{
+    width: 400px;
+    margin-top: 40px;
+    background-color: $cl3;
+    border-radius: 5px;
+    
+    h4{
+        text-align: center;
+        padding: 20px 0 5px;
+    }
+
+    p{
+        padding: 20px 10px;
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+
+    img{
+        width: 100%;
+        border-radius: 5px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .btr{
+        display: block;
+        z-index: 3;
+        // background-color: $cl4;
+        padding: 0px 35px;
+        margin: auto;
+    }
+    .lin{
+        width: 190px;
+        margin: auto;
+    }
+    .notice{
+        padding-top: 0;
+        color: rgb(211, 18, 18);
+        font-size: 1.2rem;
+    }
+}
