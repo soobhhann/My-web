@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "./proj.css";
 import Example from "../../components/example/example";
-import kish from "../../assets/images/kish.jpg";
-import teeshe from "../../assets/images/teeshe.jpg";
-import recipe from "../../assets/images/recipe.jpg";
-import voice from "../../assets/images/voiceType.jpg";
+import kish from "../../assets/images/kish.png";
+import teeshe from "../../assets/images/teeshe.png";
+import recipe from "../../assets/images/recipe.png";
+import voice from "../../assets/images/voiceType.png";
 
 function Projects() {
   useEffect(() => {
